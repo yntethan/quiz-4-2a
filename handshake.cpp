@@ -7,8 +7,8 @@
 using namespace std;
 
 mutex m;
-condition_variable q;
-condition_variable r;
+condition_variable q,
+                   r;
 int n = 0;
 
 void query(/*add necessary parameters*/ int c) {
